@@ -1,0 +1,24 @@
+.banner {
+    background: url("https://1.bp.blogspot.com/-3vOlAzqGnbE/W6w7I5bTFjI/AAAAAAAAAsQ/q7uyS5vBHRok-dIrqveQ1HGzCXWjn0a3wCLcBGAs/s1600/unnamed.jpg")
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #030303;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
