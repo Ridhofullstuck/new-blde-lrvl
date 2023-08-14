@@ -19,6 +19,12 @@ class PageController extends Controller
             "title" => "About"
         ]);
     }
+    public function galleri()
+    {
+        return view('layouts.galleri', [
+            "title" => "Galleri"
+        ]);
+    }
 
     public function contact()
     {

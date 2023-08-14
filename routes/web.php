@@ -17,4 +17,6 @@ Route::get('/', [PageController::class, 'index']);
 
 Route::get('/about', [PageController::class, 'about']);
 
+Route::get('/galleri', [PageController::class, 'galleri']);
+
 Route::get('/contact', [PageController::class, 'contact']);

@@ -4,16 +4,17 @@
     <!-- banner -->
     <div class="container-fluid banner">
         <div class="container text-center">
-            <h4 class="display-6 text-dark">Selamat Datang di toko UDPurnama</h4>
+            <h4 class="display-6 text-dark teks">Selamat Datang di toko UDPurnama</h4>
+            <p class="teks"></p>
             <a href="/galleri">
                 <button type="button" class="btn btn-primary btn-lg mt-4">
-                    Cek Galleri
+                    Tentang Kami
                 </button>
             </a>
         </div>
     </div>
     <!-- layanan -->
-    <div class="container-fluid layanan pt-5 pb-5">
+    <div class="container-fluid layanan py-3">
         <div class="container text-center">
             <h2 class="display-3" id="layanan">Layanan</h2>
             <p>
@@ -53,14 +54,14 @@
 
 
     <!-- about section -->
-    <section class="about section-padding mt-5" id="about">
+    <section class="abouts section-padding mt-5" id="abouts">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12">
-                    <div class="about-img"><img alt="" class="img-fluid" src="img/about-section.jpg"></div>
+                    <div class="abouts-img"><img alt="" class="img-fluid" src="img/about-section.jpg"></div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 ps-lg-5">
-                    <div class="about-text">
+                    <div class="abouts-text">
                         <h2 class="mt-2">We Provide the Best Quality<br>
                             Services Ever</h2>
                         <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore reiciendis. Assumenda eos

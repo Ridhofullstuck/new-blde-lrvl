@@ -1,3 +1,12 @@
+section {
+    padding: 2rem 7%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Home Section */
 .banner {
     background: url("https://1.bp.blogspot.com/-3vOlAzqGnbE/W6w7I5bTFjI/AAAAAAAAAsQ/q7uyS5vBHRok-dIrqveQ1HGzCXWjn0a3wCLcBGAs/s1600/unnamed.jpg")
         no-repeat center center;
@@ -6,7 +15,6 @@
     padding-bottom: 20%;
     color: #fff;
 }
-
 
 .lingkaran {
     display: inline-block;
@@ -22,3 +30,211 @@
     position: relative;
     top: 30px;
 }
+/* End home */
+
+/*--------------------------------------------------------------
+  # Breadcrumbs
+  --------------------------------------------------------------*/
+
+.breadcrumbs {
+    padding: 50px 0 50px 0;
+    min-height: 30vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.breadcrumbs:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+}
+
+.breadcrumbs h2 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0dcaf0;
+}
+
+.breadcrumbs ol a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+}
+
+.breadcrumbs li {
+    color: #0dcaf0;
+}
+
+.breadcrumbs ol a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #0dcaf0;
+    content: "/";
+}
+
+/* about */
+
+.heading {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    font-size: 4rem;
+}
+
+.about .row {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .row .image {
+    flex: 1 1 24rem;
+}
+
+.about .row .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+    font-size: 62.5%;
+}
+
+.about .row .content h3 {
+    color: #000;
+    line-height: 1.5;
+}
+
+.about .row .content h3 span {
+    color: #0dcaf0;
+}
+
+.about .row .content p {
+    font-size: 1.4rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* about end*/
+
+/* gallery */
+
+.gallery .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.gallery .gallery-container .box {
+    height: 20rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .gallery-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .gallery-container .box:hover img {
+    transform: scale(1.1);
+}
+
+.gallery .gallery-container .box .icons {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.gallery .gallery-container .box .icons i {
+    font-size: 6rem;
+    color: #fff;
+}
+
+.gallery .gallery-container .box:hover .icons {
+    display: flex;
+}
+
+.box {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.box .image {
+    height: 35rem;
+    width: 100%;
+    padding: 1.1rem;
+}
+
+.box .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.box {
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.box h3 {
+    color: #000;
+    font-size: 2.5rem;
+}
+
+.box {
+    padding: 1rem 0;
+}
+
+.box i {
+    font-size: 1.7rem;
+    color: #0dcaf0;
+}
+
+.box {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #0dcaf0;
+    margin-right: 1rem;
+}
+
+/* gallery end*/
