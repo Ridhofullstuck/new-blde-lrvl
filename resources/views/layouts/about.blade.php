@@ -19,7 +19,7 @@
 
     <section class="about" id="about">
 
-        <h1 class="heading"> <span>about</span> us </h1>
+        <h1 class="heading"> <span>Tentang</span> UDpurnama </h1>
 
         <div class="row">
 
@@ -28,10 +28,7 @@
             </div>
 
             <div class="content">
-                <h3>good things come to those <span>who bake </span> for others</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis sunt id modi quis in eveniet at!
-                    Vero iusto excepturi.</p>
-                <a href="#" class="btn">read more</a>
+                <p>Kami adalah destinasi utama Anda untuk segala kebutuhan bangunan dan perbaikan rumah. Dengan pengalaman puluhan tahun dalam industri ini, kami bangga menjadi mitra terpercaya bagi para kontraktor, pemilik rumah, dan tukang untuk memenuhi segala kebutuhan proyek konstruksi dan renovasi.</p>
             </div>
 
         </div>

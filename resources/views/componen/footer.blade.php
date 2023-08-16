@@ -48,7 +48,7 @@
 
             <div class="row text-center">
                 <p>Copyright ©2023 dibuat oleh
-                    <a href="#" style="text-decoration: none"><strong class="text-info">JasterIntern</strong></a>
+                    <a href="https://jaster.co.id/intern/" style="text-decoration: none"><strong class="text-info">JasterIntern</strong></a>
                 </p>
             </div>
 
