@@ -1,5 +1,6 @@
 <?php
 use App\http\Controllers\PageController;
+use App\http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +20,5 @@ Route::get('/about', [PageController::class, 'about']);
 
 Route::get('/galleri', [PageController::class, 'galleri']);
 
-Route::get('/contact', [PageController::class, 'contact']);
+Route::get('/contact', [PageController::class, 'contact'])->name('contactForm');
+Route::post('/send', [ContactController::class, 'send'])->name('send.email');

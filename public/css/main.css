@@ -6,29 +6,152 @@ a {
     text-decoration: none;
 }
 
-/* Home Section */
-.banner {
-    background: url("https://1.bp.blogspot.com/-3vOlAzqGnbE/W6w7I5bTFjI/AAAAAAAAAsQ/q7uyS5vBHRok-dIrqveQ1HGzCXWjn0a3wCLcBGAs/s1600/unnamed.jpg")
-        no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
+/* Tombol */
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
     color: #fff;
 }
 
+/* End Tombol */
+
+/* Home Section */
+
+#home {
+    background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)),
+        url("https://1.bp.blogspot.com/-3vOlAzqGnbE/W6w7I5bTFjI/AAAAAAAAAsQ/q7uyS5vBHRok-dIrqveQ1HGzCXWjn0a3wCLcBGAs/s1600/unnamed.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#home h1 {
+    font-weight: 700;
+}
+
+#home p {
+    max-width: 550px;
+    margin: 18px auto;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: #e93b81;
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background-color: #ce2f6e;
+    color: #fff;
+}
+
+/* Icon Home */
 .lingkaran {
     display: inline-block;
     border-radius: 50%;
-    width: 150px;
+    width: 100px;
     margin: auto;
-    height: 150px;
+    height: 100px;
     color: #fff;
-    background-color: #030303;
+    background-color: #0dcaf0;
 }
 
 .lingkaran i {
     position: relative;
-    top: 30px;
+    top: 15px;
 }
 /* End home */
 
@@ -357,4 +480,3 @@ a {
     background: rgba(13, 202, 240, 0.8);
     color: #000;
 }
-

@@ -28,7 +28,7 @@ class PageController extends Controller
 
     public function contact()
     {
-        return view('layouts.contact', [
+        return view('contactForm', [
             "title" => "Contact",
         ]);
     }
